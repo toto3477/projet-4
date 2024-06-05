@@ -1,0 +1,22 @@
+{
+    "name": "Nina Carducci photographe",
+    "short_name": "N. Carducci",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "description": "Travaux et prestations de la photographe professionnel Nina Carducci",
+    "theme_color": "orange",
+    "background_color": "white",
+    "icons": [
+        {
+            "src": "./assets/images/camera.WebP",
+            "sizes": "512x512",
+            "type": "image/WebP"
+        },
+        {
+            "src": "./assets/images/camera.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
