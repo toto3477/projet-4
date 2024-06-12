@@ -41,20 +41,31 @@
     <!-- Manifest pour PWA -->
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="white">
-    
-        <!-- JSON-LD pour les Rich Snippets -->
-        <script type="application/ld+json">
-            {
-              "@context": "http://schema.org",
-              "@type": "Organization",
-              "name": "Nina Carducci",
-              "url": "https://toto3477.github.io/projet-4/",
-              "logo": "https://nina-carducci.github.io/assets/images/camera.webp",
-              "sameAs": [
-                "https://www.instagram.com/ninacarducci.photo/?hl=fr"
-              ]
-            }
-        </script>
+            <!-- JSON-LD pour les Rich Snippets -->
+            <script type='application/ld+json'> 
+                {
+                  "@context": "http://www.schema.org",
+                  "@type": "ProfessionalService",
+                  "name": "Nina Carducci",
+                  "image": "https://toto3477.github.io/projet-4/assets/images/nina.webp",
+                  "@id": "https://toto3477.github.io/projet-4/assets/images/nina.webp",
+                  "url": "https://toto3477.github.io/projet-4",
+                  "description": "Photographe professionnelle sur Bordeaux, laissez-moi immortaliser les étapes les plus importantes de votre vie, retoucher vos photos pour un rendu optimal et créer des albums personnalisés, pour revivre et partager vos souvenirs.",
+                  "priceRange": "50€ - 400€",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "68 avenue Alsace-Lorraine",
+                    "addressLocality": "Bordeaux",
+                    "postalCode": "33200",
+                    "addressCountry": "France"
+                  },
+                  "openingHours": "Lundi, Mardi, Mercredi, Jeudi, Vendredi 10:00-19:00",
+                  "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "05 56 67 78 89"
+                  }
+                }
+            </script>
 </head>
 <body>
     <!-- Section de l'en-tête supérieure -->
